@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TREE FELLING PERMISSION</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+	<style>
+body  {
+  background-image: url("image14.jpg");
+  background-repeat: no-repeat;
+    background-size: cover;
+  background-attachment: fixed;
+}
+			p{
+			font-family:Gill Sans MT;
+			font-size:18px;
+			color:#009900;
+		}
+		table{
+		font-family:arial,sans-serif;
+		border-collapse:collapse;
+		width:100%;
+		}
+		td,th{
+		border:1px solid #dddddd;
+		text-align:left;
+		font-size:25px;
+		padding:8px;
+		}
+	</style>
+</head>
+<body><!-- style="height:1000px"-->
+<div>
+<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:#427626;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#" style="font-family:copperplate gothic;font-size:28px;font-weight:bold;">TREE FELLING PERMISSION <span class="glyphicon glyphicon-tree-conifer"></span></h2></a>
+    </div>
+	<ul class="nav navbar-nav" style="font-family:Gill Sans MT";>
+      <li><a href="welcome.html">HOME</a></li>
+      <li><a href="rules.html">RULES</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">APPLICATION<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="private.html"> private property</a></li>
+			
+          <li><a href="govt.html">governament property</a></li>
+        
+        </ul>
+      </li>
+	  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">DECESES <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="">A</a>
+          <li><a href="">B</a></li>
+          <li><a href="">C</a></li>
+        </ul>
+      </li>
+	  <li><a href="appointment.php"><span class="glyphicon glyphicon-list-alt"> APPLICATION STATUS</span></a></li>
+      
+    </ul>
+    </ul>
+	<ul class="nav navbar-nav navbar-right">
+		<li style="font-family:Gill Sans MT";><a href="admin.php"><span class="glyphicon glyphicon-user" >  ADMIN  </span></a></li>
+		
+	 </ul>
+      
+    
+  </div>
+</nav>
+</div>
+<div class="container">
+    <table>
+    <tr><td><h1 style="align:center;font-size:40px;">APPLICATION FORM FOR PRIVATE AREA</h1></td></tr>
+	<tr><td>Name of Applicant:</td><td><input type="text" name="txt1"></td></tr>
+	<tr><td>Applicant Address:</td><td><input type="textarea" name="txt11"></td></tr>
+	<tr><td>Loction Address:</td><td><input type="text" name="txt12"></td></tr>
+	<tr><td>Mobile Number:</td><td><input type="text" name="txt13"></td></tr>
+	<tr><td>Application date:</td><td><input type="date" name="txt14"></td></tr>
+	<tr><td>Purpose of tree to be felled:</td><td><input type="text" name="txt1"></td></tr>
+    <tr><td>WardName:</td><td><form action="" method="get">
+	<input list="browsers" name="browser">
+           <datalist id="browsers">
+               <option value="Gubbi">
+               <option value="Sira">
+               <option value="Devaryanapatna">
+               <option value="DevarayanaDuraga">
+               <option value="Kaythasandhra">
+			    <option value="south"> 
+				<option value="west">
+				 <option value="East">
+           </datalist>
+		   </form>
+        </td></tr>
+
+	<tr><td> Survey number:</td><td><input type="text" name="txt2"></td></tr>
+	<tr><td>Land Mark:</td><td><input type="text" name="txt3"></td></tr>
+    <tr><td>Email-Id:</td><td><input type="email" name="txt4"></td></tr>
+	<tr><td>Landline Number:</td><td><input type="text" name="txt5"></td></tr>
+	<tr><td>Zone Name:</td><td><form action="" method="get">
+        <input list="browsers" name="browser">
+           <datalist id="browsers">
+               <option value="Gubbi">
+               <option value="Sira">
+               <option value="Devaryanapatna">
+               <option value="DevarayanaDuraga">
+               <option value="Kaythasandhra">
+			    <option value="south"> 
+				<option value="west">
+				 <option value="East">
+           </datalist>
+		   </form>
+        </td></tr>
+<tr><td> Number of trees for which braches to be felled:</td><td><input type="textarea" name="txt14"></td></tr>
+		<tr><td>Number of Trees intended to be felled:</td><td><input type="text" name="txt6"></td></tr>
+		<tr><td> TreeType:</td><td><input type="textarea" name="txt15"></td></tr>
+	<tr><td>Extent of the land from which the trees are to be felled:</td><td><input type="text" name="txt7"></td></tr>
+	<tr><td>Girth of the Tree at chest height(In centimeter):</td><td><input type="text" name="txt8"><input type="button" value="ADD"></td></tr>
+	<tr><td>Whether the boundary of Premises /property is clear and demarcated properly on ground:
+	</td><td><input type="radio" name="radio1" value="rd1"> Yes
+	<input type="radio" name="radio1" value="rd2"> No</td></tr>
+	<tr><td>Whether unconditional consent of the other owner having share in the right to land and the trees
+	</td><td><input type="radio" name="radio2" value="rd3"> Yes
+	<input type="radio" name="radio2" value="rd4"> No</td></tr>
+	<tr><td>Whether the licence or certificate in respect of the following is inclosed in case the purpose of felling is for:
+	</td></tr>
+	<tr><td>For coffee cultivation:</td><td>
+	<input type="radio" name="radio3" value="rd5"> Yes
+	<input type="radio" name="radio3" value="rd6"> No</td></tr>
+   <tr><td>	For Rubber cultivation:</td><td>
+	<input type="radio" name="radio4" value="rd7"> Yes
+	<input type="radio" name="radio4" value="rd8"> No</td></tr>
+	<tr><td>For cardamom cultivation:</td><td>
+	<input type="radio" name="radio5" value="rd9"> Yes
+    <input type="radio" name="radio5" value="rd10"> No</td></tr>
+	<tr><td>For construction:</td><td>
+	<input type="radio" name="radio6" value="rd11"> Yes
+	<input type="radio" name="radio6" value="rd12"> No</td></tr>
+	<tr><td>Whether the tree is dangerous to life or property:</td><td>
+	<input type="radio" name="radio1" value="rd1"> Yes
+	<input type="radio" name="radio1" value="rd1"> No</td></tr>
+	<tr><td><input type="button" value="submit"></td></tr>
+	</div></div><br><br><br><br><br>
+	</table><br><br>
+<div>
+
+<nav class="navbar navbar-inverse navbar-bottom"style="background-color:#427626">
+  <div class="container-fluid">
+    <div class="navbar-footer">
+      <ul class="nav navbar-nav navbar-left">
+	    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+		<li><a href="#"><span class="fa fa-twitter"></span></a></li>
+		<li><a href="#"><span class="fa fa-skype"></span></a></li>
+	  
+     
+    </ul>
+   <ul>
+      <ul class="nav navbar-nav navbar-right">
+		<li ><a href="#" style="font-family:copperplate gothic;">Treefelling@gmail.com</a></li>
+      <li><a href="#" style="font-family:copperplate gothic;">CopyRight@2018 All Rights Reserved</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+</div>
+</body>
+</html>

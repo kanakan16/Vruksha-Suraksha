@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>VRUKSHA SURAKSHA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+	<style>
+body  {
+  background-image: url("image14.jpg");
+  background-repeat: no-repeat;
+    background-size: cover;
+  background-attachment: fixed;
+}	
+	p{
+			font-family:Gill Sans MT;
+			font-size:18px;
+			color:#009900;
+		}
+		table{
+		font-family:arial,sans-serif;
+		border-collapse:collapse;
+		width:100%;
+		}
+		td,th{
+		border:1px solid #dddddd;
+		text-align:left;
+        font-size:25px;
+		padding:8px;
+		}
+	</style>
+	<script type="text/javascript">
+
+	function validate()
+      {
+        var pattern=/[1-4]{1}[A-Z]{2}[0-9]{2}[A-Z]{3}[0-9]{2}$/;
+        password = document.getElementById('password');
+        if ( !password.value.match(pattern))
+		alert("invalid password");
+		else
+		
+		 window.open('logsucc.html');
+      }
+
+</script>
+	</head>
+<body><!-- style="height:1000px"-->
+
+<div>
+<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:#427626;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#" style="font-family:copperplate gothic;font-size:28px;font-weight:bold;">VRUKSHA SURAKSHA <span class="glyphicon glyphicon-tree-conifer"></span></h2></a>
+    </div>
+	<ul class="nav navbar-nav" style="font-family:Gill Sans MT";>
+      <li><a href="welcome.html">HOME</a></li>
+      
+       <!--   <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">APPLICATION<span class="caret"></span></a>
+        <ul class="dropdown-menu">-->
+          <li><a href="private.html"> private property</a></li>
+			
+          <li><a href="govt.html">governament property</a></li>
+        
+      <!--  </ul>-->
+      </li>
+	  
+	  <li><a href="application status.php"><span class="glyphicon glyphicon-list-alt"> APPLICATION STATUS</span></a></li>
+      
+    </ul>
+    </ul>
+	<ul class="nav navbar-nav navbar-right">
+		<li style="font-family:Gill Sans MT";><a href=""><span class="glyphicon glyphicon-user" >  ADMIN  </span></a></li>
+		
+	 </ul>
+      
+    
+  </div>
+  
+</nav>
+</div><br>
+<br><br><br>
+<div class="container">
+<form action="" method="POST">
+	<h1 style="color:#E82102;font-family:High Tower Text;font-weight:bold;text-align:center;text-decoration:";>ADMIN LOGIN</h1><BR>
+	<div class="row">
+	<div class="col-md-4">
+	
+	</div>
+	<div class="col-md-4">
+		<div style="border-style:solid;border-width:2px";>
+		
+				<div class="form-group" style="margin-left:20px;margin-top:20px">
+				Enter Username: <input type="text" name="sem" id="sem" /><br>
+                Enter Password: <input type="password" name="password" id="password" /><br>
+             <input type="submit" value="LOGIN" onclick="validate()"/>
+			 <input type="RESET" value="CANCEL"/>
+                
+         </div>
+				
+			</form>
+		</div>
+	</div>
+	<div class="col-md-4">
+	
+	</div>
+	</div>
+</div><br><br><br><br><br><br><br><br><br><br><br>
+
+	<div>
+
+<nav class="navbar navbar-inverse navbar-bottom"style="background-color:#427626">
+  <div class="container-fluid">
+    <div class="navbar-footer">
+      <ul class="nav navbar-nav navbar-left">
+	    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+		<li><a href="#"><span class="fa fa-twitter"></span></a></li>
+		<li><a href="#"><span class="fa fa-skype"></span></a></li>
+	  
+     
+    </ul>
+   <ul>
+      <ul class="nav navbar-nav navbar-right">
+		<li ><a href="#" style="font-family:copperplate gothic;">VRUKSHA SURAKSHA@gmail.com</a></li>
+      <li><a href="#" style="font-family:copperplate gothic;">CopyRight@2018 All Rights Reserved</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+</div>
+</body>
+</html>

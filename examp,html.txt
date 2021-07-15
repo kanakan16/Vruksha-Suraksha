@@ -1,0 +1,16 @@
+<html><body><div class="row">
+ <div class="col-md-4" style="background-color:#FFFFCC; box-shadow: 10px 10px 5px #888888; border: 1px solid #ccc; padding-top:10px; ">
+<p style="background-color:#5cb85c; border-radius: 5px;" ><a href="plantations.html" class="afz" >
+<img src="./images/plantation.jpg" width="45" height="40" class="ttt" alt="Plantation"/><strong>&nbsp;&nbsp;&nbsp;Plantations</strong></a></p>
+<p style="background-color:#5bc0de; border-radius: 5px" ><a href="performance.html" class="afz">
+<img src="./images/preformance.jpg" width="45" height="40" class="ttt" alt="Performance"/><strong>&nbsp;&nbsp;&nbsp;Performance</strong></a></p>
+<p style="background-color:#337ab7; border-radius: 5px" ><a href="tender.html" class="afz">
+<img src="./images/tender.jpg" width="45" height="40" class="ttt" alt="Tender"/><strong>&nbsp;&nbsp;&nbsp;Tender</strong></a></p>
+<p style="background-color:#6A8CE9; border-radius: 5px" ><a href="annual_reports.html" class="afz">
+<img src="./images/annual-report.jpg" width="45" height="40" class="ttt" alt="Annual Report"/><strong>&nbsp;&nbsp;&nbsp;Annual Reports</strong></a></p>
+<p style="background-color:#f0ad4e; border-radius: 5px" ><a href="photo_gallery.html" class="afz">
+<img src="./images/photo_gallery.jpg" width="45" height="40" class="ttt" alt="Photo Gallery"/><strong>&nbsp;&nbsp;&nbsp;Photo Gallery</strong></a></p>
+<p style="background-color:#5cb85c; border-radius: 5px;" ><a href="recruitment.html" class="afz" >
+<img src="./images/job.jpg" width="45" height="40" class="ttt" alt="Recruitment"/><strong>&nbsp;&nbsp;&nbsp;Recruitment</strong></a></p>
+     </div>  
+ </div></body></html>
